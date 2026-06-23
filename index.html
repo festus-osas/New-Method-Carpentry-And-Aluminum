@@ -1,0 +1,390 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="New Method Carpentry and Aluminium. Precision in every cut. Strength in every build."
+    />
+    <title>New Method Carpentry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=14" />
+  </head>
+  <body>
+    <header class="top-component-bar" aria-label="Main navigation">
+      <a class="top-brand" href="#home" aria-label="New Method home">
+        <img src="assets/new-method-logo.jpeg" alt="New Method logo" />
+        <span>New Method</span>
+      </a>
+      <button
+        class="mobile-menu-toggle"
+        type="button"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="top-nav-links" id="primary-navigation" aria-label="Page sections">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a class="nav-quote" href="free-quote.html">Free Quote</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="landing" aria-label="New Method Carpentry landing page">
+      <section class="poster" id="home">
+        <img
+          class="background"
+          src="assets/landing-page-background.jpeg"
+          alt="Timber roof skeleton under construction"
+        />
+
+        <div class="copy-panel">
+          <img class="logo" src="assets/new-method-logo.jpeg" alt="New Method Carpentry and Aluminum logo" />
+
+          <div class="headline">
+            <h1>
+              <span>New Method</span>
+              <strong>Carpentry</strong>
+            </h1>
+            <span class="gold-rule" aria-hidden="true"></span>
+            <p>Precision in Every Cut.<br />Strength in Every Build.</p>
+          </div>
+
+          <div class="services" aria-label="Services">
+            <button class="service hero-service" type="button" data-gallery="roofing" aria-label="View roofing projects">
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M8 34 32 12l24 22" />
+                <path d="M14 32v22h13V41h10v13h13V32" />
+                <path d="M21 54h22" />
+              </svg>
+              <span>Roofing</span>
+            </button>
+            <div class="divider" aria-hidden="true"></div>
+            <button class="service hero-service" type="button" data-gallery="doors" aria-label="View door projects">
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M20 8h26v48H20z" />
+                <path d="M26 14h14v42" />
+                <path d="M39 34h4" />
+                <path d="M46 56h-6" />
+              </svg>
+              <span>Doors</span>
+            </button>
+            <div class="divider" aria-hidden="true"></div>
+            <button
+              class="service hero-service"
+              type="button"
+              data-gallery="skeletons"
+              aria-label="View roof skeleton projects"
+            >
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <path d="M8 46h48L32 20z" />
+                <path d="M32 20v26" />
+                <path d="M19 46 32 31l13 15" />
+              </svg>
+              <span>Roof<br />Skeletons</span>
+            </button>
+          </div>
+
+          <a class="phone-pill" href="tel:+2348166090745" aria-label="Call New Method">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.19 19 19.5 19.5 0 0 1 5 12.81 19.79 19.79 0 0 1 2.09 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.59 2.61a2 2 0 0 1-.45 2.11L8 9.64a16 16 0 0 0 6.36 6.36l1.2-1.2a2 2 0 0 1 2.11-.45c.84.27 1.71.47 2.61.59A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+            <span>+2348166090745</span>
+          </a>
+
+          <a class="consult-button hero-consult-button" href="consultation.html">
+            Book A Consultation
+          </a>
+        </div>
+
+        <footer class="tagline">Quality Craftsmanship. Reliable Service. Lasting Results.</footer>
+      </section>
+
+      <section class="second-scroll" id="services" aria-label="New Method services, about, and process">
+        <div class="section-title">
+          <span>Our Services</span>
+          <h2>Expert Solutions For <strong>Stronger, Safer,</strong> Better Spaces.</h2>
+          <i aria-hidden="true"></i>
+        </div>
+
+        <div class="service-cards" id="gallery">
+          <article class="service-card" data-gallery="roofing" role="button" tabindex="0" aria-label="View roofing projects">
+            <img src="assets/cover-roofing-card.jpeg" alt="Finished roofing project by New Method" />
+            <div class="service-card-body">
+              <span class="card-icon">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M8 34 32 12l24 22" />
+                  <path d="M14 32v22h13V41h10v13h13V32" />
+                  <path d="M21 54h22" />
+                </svg>
+              </span>
+              <h3>Roofing</h3>
+              <p>Durable roofing solutions built to withstand every season.</p>
+              <div class="project-peek" aria-hidden="true">
+                <img src="assets/projects/roofing/roofing-01.jpg" alt="" />
+                <img src="assets/projects/roofing/roofing-03.jpg" alt="" />
+                <img src="assets/projects/roofing/roofing-06.jpg" alt="" />
+              </div>
+              <span class="view-projects">View Projects</span>
+              <i aria-hidden="true"></i>
+            </div>
+          </article>
+
+          <article class="service-card" data-gallery="doors" role="button" tabindex="0" aria-label="View door projects">
+            <img src="assets/cover-door-card.jpeg" alt="Decorative door component by New Method" />
+            <div class="service-card-body">
+              <span class="card-icon">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M20 8h26v48H20z" />
+                  <path d="M26 14h14v42" />
+                  <path d="M39 34h4" />
+                  <path d="M46 56h-6" />
+                </svg>
+              </span>
+              <h3>Doors</h3>
+              <p>Strong, secure, and elegantly crafted doors.</p>
+              <div class="project-peek" aria-hidden="true">
+                <img src="assets/projects/doors/door-01.jpg" alt="" />
+                <img src="assets/projects/doors/door-02.jpg" alt="" />
+                <img src="assets/projects/doors/door-05.jpg" alt="" />
+              </div>
+              <span class="view-projects">View Projects</span>
+              <i aria-hidden="true"></i>
+            </div>
+          </article>
+
+          <article
+            class="service-card"
+            data-gallery="skeletons"
+            role="button"
+            tabindex="0"
+            aria-label="View roof skeleton projects"
+          >
+            <img src="assets/cover-roof-skeleton-card.jpeg" alt="Roof skeleton structure by New Method" />
+            <div class="service-card-body">
+              <span class="card-icon">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                  <path d="M8 46h48L32 20z" />
+                  <path d="M32 20v26" />
+                  <path d="M19 46 32 31l13 15" />
+                </svg>
+              </span>
+              <h3>Roof Skeletons</h3>
+              <p>Expertly built roof structures for maximum strength.</p>
+              <div class="project-peek" aria-hidden="true">
+                <img src="assets/projects/roof-skeletons/roof-skeleton-01.jpg" alt="" />
+                <img src="assets/projects/roof-skeletons/roof-skeleton-03.jpg" alt="" />
+                <img src="assets/projects/roof-skeletons/roof-skeleton-04.jpg" alt="" />
+              </div>
+              <span class="view-projects">View Projects</span>
+              <i aria-hidden="true"></i>
+            </div>
+          </article>
+        </div>
+
+        <section class="motion-showcase" id="work-in-motion" data-motion-showcase aria-label="New Method work in motion">
+          <div class="motion-copy">
+            <span>Work In Motion</span>
+            <h2>Real Craft, Captured <strong>On Site.</strong></h2>
+            <p>
+              A bold look at New Method workmanship in motion: structure, alignment, and clean finishing as the build comes alive.
+            </p>
+            <a class="consult-button motion-quote" href="free-quote.html">Start Your Project</a>
+          </div>
+
+          <div class="motion-visual">
+            <div class="motion-video-frame">
+              <video data-motion-video autoplay muted loop playsinline preload="auto" poster="assets/cover-roofing-card.jpeg">
+                <source src="assets/videos/work-in-motion-01.mp4" type="video/mp4" />
+              </video>
+              <div class="motion-label">
+                <span>Featured Site Work</span>
+                <strong>Precision In Progress</strong>
+              </div>
+            </div>
+
+            <div class="motion-points" aria-label="Craft highlights">
+              <article>
+                <span>01</span>
+                <strong>Accurate Framing</strong>
+              </article>
+              <article>
+                <span>02</span>
+                <strong>Clean Finishing</strong>
+              </article>
+              <article>
+                <span>03</span>
+                <strong>Strong Delivery</strong>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <div class="about-band" id="about">
+          <div class="about-photo" role="img" aria-label="Carpentry tools on a wooden work table"></div>
+          <div class="about-copy">
+            <span>About Us</span>
+            <h2>Built On Skill. <strong>Driven By Passion.</strong></h2>
+            <p>
+              At New Method Carpentry, we take pride in delivering top-quality roofing and carpentry
+              solutions. From strong roofs to fine finishes, we build with precision, honesty, and a
+              commitment to excellence.
+            </p>
+            <ul>
+              <li>Experienced & Skilled Carpenters</li>
+              <li>Attention to Detail</li>
+              <li>Customer Satisfaction Guaranteed</li>
+            </ul>
+          </div>
+        </div>
+
+        <section class="testimonials-block" id="testimonials" aria-label="Client testimonials">
+          <div class="section-title testimonials-title">
+            <span>Testimonials</span>
+            <h2>Trusted For <strong>Clean, Strong,</strong> Reliable Work.</h2>
+            <i aria-hidden="true"></i>
+          </div>
+
+          <div class="testimonial-grid">
+            <article>
+              <p>New Method handled the roof work with serious attention to detail. The finishing was neat and the structure feels strong.</p>
+              <strong>Residential Roofing Client</strong>
+              <span>Benin City</span>
+            </article>
+            <article>
+              <p>The door recommendation and installation were clean. They explained the options clearly and delivered a solid result.</p>
+              <strong>Door Installation Client</strong>
+              <span>Edo State</span>
+            </article>
+            <article>
+              <p>Good workmanship, good communication, and proper planning from measurement to final fitting. I would recommend them.</p>
+              <strong>Carpentry Project Client</strong>
+              <span>New Method Customer</span>
+            </article>
+          </div>
+        </section>
+
+        <div class="process-block">
+          <div class="section-title process-title">
+            <span>Our Process</span>
+            <h2>Simple Process. <strong>Superior Results.</strong></h2>
+          </div>
+
+          <div class="process-track" aria-label="Our process">
+            <article class="process-step">
+              <div class="step-visual">
+                <span class="step-number">01</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 64 64" aria-hidden="true">
+                    <path d="M14 17h36v25H31L22 51v-9h-8z" />
+                    <path d="M24 29h.1M32 29h.1M40 29h.1" />
+                  </svg>
+                </span>
+              </div>
+              <h3>Consultation</h3>
+              <p>We listen to your needs and provide expert advice.</p>
+            </article>
+
+            <span class="arrow" aria-hidden="true">&rsaquo;</span>
+
+            <article class="process-step">
+              <div class="step-visual">
+                <span class="step-number">02</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 64 64" aria-hidden="true">
+                    <path d="M18 46 46 18" />
+                    <path d="m22 17 7 7-7 7-7-7z" />
+                    <path d="m42 33 7 7-7 7-7-7z" />
+                    <path d="M36 14h12v12" />
+                    <path d="M16 38h12v12" />
+                  </svg>
+                </span>
+              </div>
+              <h3>Planning</h3>
+              <p>We plan every detail to ensure a smooth build.</p>
+            </article>
+
+            <span class="arrow" aria-hidden="true">&rsaquo;</span>
+
+            <article class="process-step">
+              <div class="step-visual">
+                <span class="step-number">03</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 64 64" aria-hidden="true">
+                    <path d="M40 9 55 24l-7 7-5-5-21 21-8-8 21-21-5-5z" />
+                    <path d="m18 45-5 5" />
+                  </svg>
+                </span>
+              </div>
+              <h3>Construction</h3>
+              <p>Our skilled team gets to work with precision and care.</p>
+            </article>
+
+            <span class="arrow" aria-hidden="true">&rsaquo;</span>
+
+            <article class="process-step">
+              <div class="step-visual">
+                <span class="step-number">04</span>
+                <span class="step-icon">
+                  <svg viewBox="0 0 64 64" aria-hidden="true">
+                    <path d="M32 8 51 16v14c0 14-8 23-19 28-11-5-19-14-19-28V16z" />
+                    <path d="M32 15v34" />
+                    <path d="m32 49 13-27" />
+                  </svg>
+                </span>
+              </div>
+              <h3>Delivery</h3>
+              <p>Quality checked. On time. Built to last.</p>
+            </article>
+          </div>
+
+          <div class="consult-strip" id="contact">
+            <div>
+              <span>Talk to a specialist</span>
+              <h2>Have a roofing, door, or roof skeleton project in mind?</h2>
+              <p>Send your project details directly to New Method on WhatsApp and get practical next steps.</p>
+            </div>
+            <a class="consult-button" href="free-quote.html">Get Free Quote</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="gallery-modal" data-gallery-modal aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="gallery-title">
+        <button class="modal-backdrop" type="button" data-close-gallery aria-label="Close gallery"></button>
+        <section class="gallery-shell" aria-label="Project gallery">
+          <button class="modal-close" type="button" data-close-gallery aria-label="Close gallery">&times;</button>
+          <div class="gallery-stage">
+            <button class="gallery-nav prev" type="button" data-gallery-prev aria-label="Previous project">&lsaquo;</button>
+            <img data-gallery-image src="assets/projects/roofing/roofing-01.jpg" alt="" />
+            <button class="gallery-nav next" type="button" data-gallery-next aria-label="Next project">&rsaquo;</button>
+          </div>
+          <div class="gallery-details">
+            <span data-gallery-kicker>Project Gallery</span>
+            <h2 id="gallery-title" data-gallery-title>Roofing Projects</h2>
+            <p data-gallery-copy>Durable roofing solutions built with careful finishing and weather-ready strength.</p>
+            <div class="gallery-count" data-gallery-count>1 / 6</div>
+            <div class="gallery-thumbs" data-gallery-thumbs aria-label="Project thumbnails"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="script.js?v=9"></script>
+  </body>
+</html>
+

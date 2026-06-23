@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Request a free quote from New Method Carpentry and Aluminium for roofing, doors, roof skeletons, aluminium work, and custom carpentry."
+    />
+    <title>Free Quote | New Method Carpentry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=14" />
+  </head>
+  <body>
+    <main class="consult-page quote-page">
+      <img
+        class="consult-bg"
+        src="assets/landing-page-background.jpeg"
+        alt="Timber roof skeleton under construction"
+      />
+
+      <header class="consult-header">
+        <a class="consult-brand" href="index.html" aria-label="Back to New Method home">
+          <img src="assets/new-method-logo.jpeg" alt="New Method Carpentry and Aluminum logo" />
+          <span>New Method</span>
+        </a>
+        <nav class="quote-mini-nav" aria-label="Quote navigation">
+          <a class="consult-nav-link" href="index.html">Back Home</a>
+          <a class="consult-nav-link" href="consultation.html">Consultation</a>
+        </nav>
+      </header>
+
+      <section class="consult-layout quote-layout" aria-label="Free project quote">
+        <div class="consult-copy quote-copy">
+          <span>Free Project Quote</span>
+          <h1>Get a clear quote from quality New Method carpenters.</h1>
+          <p>
+            Describe your project, add measurements if you have them, and select inspiration images or PDFs.
+            Even without exact measurements, the smart quote questions help New Method understand the scope and reply quickly.
+          </p>
+
+          <div class="quote-promise">
+            <article>
+              <strong>Fast Reply</strong>
+              <span>Get feedback within a short time.</span>
+            </article>
+            <article>
+              <strong>Specialist Review</strong>
+              <span>Your request goes straight to New Method.</span>
+            </article>
+            <article>
+              <strong>Better Accuracy</strong>
+              <span>Use photos, PDFs, sketches, or guided details.</span>
+            </article>
+          </div>
+        </div>
+
+        <form class="consult-form quote-form" data-quote-form>
+          <div class="form-heading">
+            <span>Quote Request</span>
+            <h2>Tell us what you want built</h2>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              <span>Your name</span>
+              <input name="name" type="text" placeholder="Enter your name" autocomplete="name" required />
+            </label>
+
+            <label>
+              <span>Phone number</span>
+              <input name="phone" type="tel" placeholder="Your phone number" autocomplete="tel" required />
+            </label>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              <span>Project type</span>
+              <select name="service" required>
+                <option value="Roofing">Roofing</option>
+                <option value="Doors">Doors</option>
+                <option value="Roof Skeletons">Roof Skeletons</option>
+                <option value="Custom Carpentry">Custom Carpentry</option>
+                <option value="Aluminium Work">Aluminium Work</option>
+                <option value="Multiple Services">Multiple Services</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Timeline</span>
+              <select name="timeline" required>
+                <option value="Urgent">Urgent</option>
+                <option value="This week">This week</option>
+                <option value="This month">This month</option>
+                <option value="Flexible">Flexible</option>
+                <option value="Still planning">Still planning</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-grid">
+            <label>
+              <span>Estimated budget</span>
+              <input name="budget" type="text" placeholder="Example: &#8358;500k - &#8358;1m" />
+            </label>
+
+            <label>
+              <span>Measurement status</span>
+              <select name="measurementStatus" required>
+                <option value="I do not know the measurements yet">I do not know yet</option>
+                <option value="I have rough measurements">I have rough measurements</option>
+                <option value="I have exact measurements">I have exact measurements</option>
+                <option value="I need New Method to inspect/measure">I need inspection/measurement</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            <span>Measurements, quantity, or size clues</span>
+            <input
+              name="measurements"
+              type="text"
+              placeholder="Optional: room size, roof area, number of doors, building type, or 'not sure yet'"
+            />
+          </label>
+
+          <div class="smart-quote-panel">
+            <div class="smart-panel-heading">
+              <span>Smart quote helper</span>
+              <strong>No exact measurements? These details still help us estimate accurately.</strong>
+            </div>
+
+            <div class="form-grid">
+              <label>
+                <span>Project stage</span>
+                <select name="projectStage" required>
+                  <option value="Just planning">Just planning</option>
+                  <option value="Site is ready">Site is ready</option>
+                  <option value="Renovation / replacement">Renovation / replacement</option>
+                  <option value="New building">New building</option>
+                  <option value="Repair work">Repair work</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Property type</span>
+                <select name="propertyType" required>
+                  <option value="Residential home">Residential home</option>
+                  <option value="Shop / commercial space">Shop / commercial space</option>
+                  <option value="Office">Office</option>
+                  <option value="Estate / multiple units">Estate / multiple units</option>
+                  <option value="Other">Other</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form-grid">
+              <label>
+                <span>Scope clue</span>
+                <input name="scopeClue" type="text" placeholder="Example: 3 bedroom roof, 5 doors, front shop entrance" />
+              </label>
+
+              <label>
+                <span>Preferred finish/material</span>
+                <input name="finish" type="text" placeholder="Example: black roof, hardwood, aluminium, modern finish" />
+              </label>
+            </div>
+
+            <label>
+              <span>Current site condition</span>
+              <select name="siteCondition" required>
+                <option value="Empty/new site">Empty/new site</option>
+                <option value="Old work needs replacement">Old work needs replacement</option>
+                <option value="Partly completed work">Partly completed work</option>
+                <option value="Repair or adjustment needed">Repair or adjustment needed</option>
+                <option value="Not sure yet">Not sure yet</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            <span>Project location</span>
+            <input name="location" type="text" value="Benin City, Edo State" required />
+          </label>
+
+          <label>
+            <span>Project description</span>
+            <textarea
+              name="details"
+              rows="6"
+              placeholder="Describe what you want, the space, style, existing condition, and anything important."
+              required
+            ></textarea>
+          </label>
+
+          <label class="file-drop">
+            <span>Attach inspiration images or PDFs</span>
+            <input
+              name="attachments"
+              type="file"
+              multiple
+              accept="image/*,application/pdf,.pdf"
+              data-quote-files
+            />
+            <strong>Choose files</strong>
+            <small>All image formats and PDF files are accepted. Selected file names will be listed in your quote message.</small>
+          </label>
+
+          <div class="selected-files" data-selected-files aria-live="polite">
+            <span>No inspiration files selected yet.</span>
+          </div>
+
+          <div class="quote-actions">
+            <button class="consult-submit" type="submit">
+              Send Quote
+            </button>
+
+            <button class="direct-whatsapp quote-whatsapp-option" type="button" data-whatsapp-option>
+              Request Quote On WhatsApp
+            </button>
+          </div>
+
+          <p class="quote-note">
+            Send Quote opens an email to New Method with your details arranged. The WhatsApp option opens
+            New Method's WhatsApp with the same details already filled in.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <script src="free-quote.js?v=7"></script>
+  </body>
+</html>

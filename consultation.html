@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Consult New Method Carpentry and Aluminium about roofing, doors, roof skeletons, and custom carpentry projects."
+    />
+    <title>Consultation | New Method Carpentry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=14" />
+  </head>
+  <body>
+    <main class="consult-page">
+      <img
+        class="consult-bg"
+        src="assets/landing-page-background.jpeg"
+        alt="Timber roof skeleton under construction"
+      />
+
+      <header class="consult-header">
+        <a class="consult-brand" href="index.html" aria-label="Back to New Method home">
+          <img src="assets/new-method-logo.jpeg" alt="New Method Carpentry and Aluminum logo" />
+          <span>New Method</span>
+        </a>
+        <a class="consult-nav-link" href="index.html">Back Home</a>
+      </header>
+
+      <section class="consult-layout" aria-label="Project consultation">
+        <div class="consult-copy">
+          <span>Project Consultation</span>
+          <h1>Talk to a New Method specialist before you build.</h1>
+          <p>
+            Share the project type, location, timeline, and what you want done. Your brief will open directly
+            in WhatsApp so a carpenter or specialist can respond with clear next steps.
+          </p>
+
+          <div class="consult-highlights" aria-label="Consultation highlights">
+            <div>
+              <strong>Roofing</strong>
+              <small>Repairs, new roofs, and finishing.</small>
+            </div>
+            <div>
+              <strong>Doors</strong>
+              <small>Secure and elegant entrance solutions.</small>
+            </div>
+            <div>
+              <strong>Roof Skeletons</strong>
+              <small>Strong, accurate roof structures.</small>
+            </div>
+          </div>
+        </div>
+
+        <form class="consult-form" data-consult-form>
+          <div class="form-heading">
+            <span>Send WhatsApp Brief</span>
+            <h2>Tell us about your project</h2>
+          </div>
+
+          <label>
+            <span>Your name</span>
+            <input name="name" type="text" placeholder="Enter your name" autocomplete="name" required />
+          </label>
+
+          <label>
+            <span>Phone number</span>
+            <input name="phone" type="tel" placeholder="Your phone number" autocomplete="tel" />
+          </label>
+
+          <div class="form-grid">
+            <label>
+              <span>Project type</span>
+              <select name="service" required>
+                <option value="Roofing">Roofing</option>
+                <option value="Doors">Doors</option>
+                <option value="Roof Skeletons">Roof Skeletons</option>
+                <option value="Custom Carpentry">Custom Carpentry</option>
+                <option value="Aluminium Work">Aluminium Work</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Timeline</span>
+              <select name="timeline" required>
+                <option value="As soon as possible">As soon as possible</option>
+                <option value="This week">This week</option>
+                <option value="This month">This month</option>
+                <option value="Still planning">Still planning</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            <span>Project location</span>
+            <input name="location" type="text" value="Benin City, Edo State" required />
+          </label>
+
+          <label>
+            <span>Project details</span>
+            <textarea
+              name="details"
+              rows="5"
+              placeholder="Describe what you want, measurements, site condition, or any special request."
+              required
+            ></textarea>
+          </label>
+
+          <button class="consult-submit" type="submit">
+            Continue On WhatsApp
+          </button>
+
+          <a
+            class="direct-whatsapp"
+            href="https://wa.me/2348166090745?text=Hello%20New%20Method%2C%20I%20want%20to%20consult%20about%20a%20project."
+            target="_blank"
+            rel="noreferrer"
+          >
+            Message directly without form
+          </a>
+        </form>
+      </section>
+    </main>
+
+    <script src="consultation.js?v=1"></script>
+  </body>
+</html>
