@@ -425,7 +425,8 @@ h1 strong {
 
 .consult-button,
 .consult-submit,
-.direct-whatsapp {
+.direct-whatsapp,
+.direct-facebook {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -460,7 +461,9 @@ h1 strong {
 .consult-submit:hover,
 .consult-submit:focus-visible,
 .direct-whatsapp:hover,
-.direct-whatsapp:focus-visible {
+.direct-whatsapp:focus-visible,
+.direct-facebook:hover,
+.direct-facebook:focus-visible {
   border-color: rgba(255, 230, 142, 0.95);
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.36), 0 0 36px rgba(215, 168, 59, 0.24);
   transform: translateY(-3px);
@@ -1497,7 +1500,8 @@ h1 strong {
 }
 
 .consult-nav-link,
-.direct-whatsapp {
+.direct-whatsapp,
+.direct-facebook {
   color: var(--gold-bright);
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(14px);
@@ -1829,7 +1833,13 @@ h1 strong {
   padding: 14px 20px;
 }
 
-.direct-whatsapp {
+.consult-contact-links {
+  display: grid;
+  gap: 10px;
+}
+
+.direct-whatsapp,
+.direct-facebook {
   min-height: 44px;
   padding: 11px 16px;
 }
@@ -2276,6 +2286,7 @@ h1 strong {
 
   .consult-submit,
   .direct-whatsapp,
+  .direct-facebook,
   .consult-nav-link {
     min-height: 48px;
   }
@@ -2566,6 +2577,7 @@ h1 strong {
   .consult-button:hover,
   .consult-submit:hover,
   .direct-whatsapp:hover,
+  .direct-facebook:hover,
   .service-card:hover,
   .service-card:hover > img,
   .service-card:hover .project-peek img,
